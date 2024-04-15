@@ -5,7 +5,8 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['bit.tech'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"19171b","AccentColor":"e590ff","BackgroundColor":"141114","OutlineColor":"272630"}') },
+		['bit.tech'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1d1d1d","AccentColor":"fbf2ff","BackgroundColor":"202020","OutlineColor":"393939"}') },
+		['bit.pink'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"19171b","AccentColor":"e590ff","BackgroundColor":"141114","OutlineColor":"272630"}') },
 		['PentaHook'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1f1f26","AccentColor":"5873c6","BackgroundColor":"1b191e","OutlineColor":"373737"}') },
 		['BBot'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Fatality']		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
