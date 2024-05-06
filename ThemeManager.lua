@@ -5,7 +5,7 @@ local ThemeManager = {} do
 --
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['bit.tech'] 		= { 1, httpService:JSONDecode('{"FontColor":"5E5E5E","MainColor":"0F0F0F","AccentColor":"5D589D","SelectedTabColor":"1a191d","BackgroundColor":"0F0F0F","OutlineColor":"191919"}') },
+		['bit.tech'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3d4345","AccentColor":"00ffff","SelectedTabColor":"1a191d","BackgroundColor":"171717","OutlineColor":"191919"}') },
 		['bit.pink'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"19171b","AccentColor":"e590ff","BackgroundColor":"141114","OutlineColor":"272630"}') },
 		['PentaHook'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1f1f26","AccentColor":"5873c6","BackgroundColor":"1b191e","OutlineColor":"373737"}') },
 		['BBot'] 		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
